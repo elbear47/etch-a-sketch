@@ -1,19 +1,18 @@
 .grid-container {
     display: grid;
     grid-template-columns: repeat(16, 1fr);
+    grid-column-gap: 0px;
 }
 
 .grid-square {
     border: 1px solid #202020;
-    height: 3rem;
-    width: 3rem;
-    margin: 0;
+    height: 85px;
+    width: 85px;
     background-color: white;
-    /* margin: 5px; */
+    margin: 0;
 }
 
 .color-hover {
-    transform: scale(1.02);
     transition: all 100ms ease-out;
     background-color: rgb(55, 168, 102);
 }
@@ -26,6 +25,7 @@
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    border-radius: 8px;
 }
 
 .clear-btn {
@@ -43,4 +43,12 @@
     color: #fff;
     width: 100%;
     margin-bottom: 5px;
+}
+
+body {
+    margin: 30px;
+}
+
+h1 {
+    font-size: 50px;
 }
