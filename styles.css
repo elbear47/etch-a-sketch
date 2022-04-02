@@ -8,6 +8,7 @@
     height: 3rem;
     width: 3rem;
     margin: 0;
+    background-color: white;
     /* margin: 5px; */
 }
 
@@ -27,7 +28,7 @@
     text-align: center;
 }
 
-.clear {
+.clear-btn {
     display: inline-block;
     outline: none;
     cursor: pointer;

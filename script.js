@@ -1,3 +1,5 @@
+// add clear functionality
+const clearBtn = document.querySelector('.clear-btn');
 // container element div
 const container = document.querySelector('.grid-container');
 
@@ -22,5 +24,14 @@ for (let i = 0; i < boxesNodeList.length; i++) {
     }
 
 }
+// clear drawing
+if (clearBtn.addEventListener('click', () => {
+        for (let i = 0; i < boxesNodeList.length; i++) {
+            let box = boxesNodeList[i];
+            box.classList.remove('color-hover');
 
-// add clear functionality
+        }
+        console.log('pressed');
+    })) {
+
+}
